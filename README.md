@@ -22,6 +22,8 @@ _/
 - morgan - npm install morgan
 - cors - npm install cors
 - file upload - npm install multer
+- mysql2 - npm i mysql2
+- sequelize - npm i sequelize 
 
 # server setUp
 
