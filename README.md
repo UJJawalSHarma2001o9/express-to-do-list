@@ -14,8 +14,7 @@ when you copy my project use this first -- npm install for all package's thank y
 _/
 
 # Project run by - npm run dev ;
-
-      * tip - if want use it  npm run start ;
+      * tip - first install all of npm package using this commands "npm i "  ;
 
 # NPM packages
 - env - npm install express dotenv
