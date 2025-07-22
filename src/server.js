@@ -1,6 +1,6 @@
 const app = require('./app');
 const dotenv = require('dotenv');
-const { dbConnection } = require('./config/config');
+const { dbConnection } = require('./config/dbConnection');
 dotenv.config();
 
 const PORT = process.env.PORT || 5000;
@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on http://localhost:${PORT}`);
-  dbConnection();
+  dbConnection() ; 
 });
 
 
